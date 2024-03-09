@@ -1,0 +1,96 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #E3E6E6;
+}
+#section2nav{
+    height: 39px;
+    justify-content: center;
+    background-color: #232F3E;
+}
+
+#section2nav .menulist ul li{
+    cursor: pointer;
+    margin-top: 2px;
+}
+#location{
+    font-weight: lighter;
+    font-size: 8.4pt;
+    position: relative;
+    top: 6px;
+    left: 15px;
+}
+#btnhover :hover{
+    padding: 5px;
+}
+#footer ul li {
+    list-style: none;
+}
+#mq{
+    display: none;
+}
+ @media  screen and (max-width:480px) {
+   *{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+   }
+body{
+    -webkit-text-size-adjust: 100%;
+}
+   #main2layer{
+    display: none;
+    
+   }
+   #mq{
+    display:block;
+    overflow: hidden;
+   }
+   #si{
+    width: 100%;
+    padding: 20px;
+   }
+   #sign{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+   }
+   #sign form{
+        padding: 0%;
+        width: 300px;
+        font-size: small;
+    }
+    #new{
+        display: none;
+    }
+    .w-25 {
+        width: 100%!important;
+    }
+   #mqnav{
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 160px;
+    z-index: 100;
+    background-color: #131921;
+   }
+   .slick-slide > div{
+    margin: 0 5px;
+   }
+   .slider{
+    overflow:hidden;
+   }
+   .card-1{
+    cursor: pointer;
+    width: 45px;
+   }
+  
+ }
